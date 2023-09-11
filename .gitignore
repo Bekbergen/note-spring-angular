@@ -1,0 +1,7 @@
+/easy-notes/.vscode
+/easy-notes/.mvn
+/easy-notes/target
+
+/notes-app/.vscode
+/notes-app/.angular
+/notes-app/node_modules

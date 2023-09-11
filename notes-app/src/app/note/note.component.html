@@ -1,0 +1,24 @@
+<div class="col-md-6">
+    <h2> Note Details</h2>
+
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th class="hidden">id</th>
+        <th>title</th>
+        <th>content</th>
+        <th>createdAt</th>
+        <th>updatedAt</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let note of notes">
+          <td class="hidden">{{ note.id }}</td>
+          <td>{{ note.title }}</td>
+          <td>{{ note.content }}</td>
+          <td>{{ note.createdAt }}</td>
+          <td>{{ note.updatedAt }}</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
